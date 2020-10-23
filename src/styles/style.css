@@ -1,0 +1,147 @@
+/*! purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/*! purgecss end ignore */
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "TTNorms-Medium"; 
+  font-weight: 100;
+  src: url('/fonts/TT-Norms-Medium/TT Norms Medium.woff2') format("woff2"), 
+       url('/fonts/TT-Norms-Medium/TT Norms Medium.woff') format("woff"),
+       url('/fonts/TT-Norms-Medium/TT Norms Medium.ttf') format('truetype'),
+       url('/fonts/TT-Norms-Medium/TT Norms Medium.svg#icomoonregular') format('svg');
+  font-display: swap;
+}
+  
+  @font-face {
+    font-family: "TTNorms-Light"; 
+    font-weight: 100;
+    src: url('/fonts/TT-Norms-Light/TT Norms Light.woff2') format("woff2"), 
+         url('/fonts/TT-Norms-Light/TT Norms Light.woff') format("woff"),
+         url('/fonts/TT-Norms-Light/TT Norms Light.ttf') format('truetype'),
+         url('/fonts/TT-Norms-Light/TT Norms Light.svg#icomoonregular') format('svg');
+    font-display: swap;
+}
+   
+  @font-face {
+    font-family: "TTNorms-Regular"; 
+    font-weight: 100;
+    src: url('/fonts/TT-Norms-Regular/TT Norms Regular.woff2') format("woff2"), 
+         url('/fonts/TT-Norms-Regular/TT Norms Regular.woff') format("woff"),
+         url('/fonts/TT-Norms-Regular/TT Norms Regular.ttf') format('truetype'),
+         url('/fonts/TT-Norms-Regular/TT Norms Regular.svg#icomoonregular') format('svg');
+    font-display: swap;
+}
+  
+b {
+      font-family: 'TTNorms-Medium'!important; 
+  }
+  
+
+.m-0-auto{
+  margin:0px auto;
+}
+
+.left-4{
+  left:15%;
+}
+ 
+.-m-10-p{
+  margin-left:-10%;
+}
+
+.h-70{
+  height: 18rem;
+}
+
+.btn-blue{
+    width: 14rem;
+    border-radius: 20px;
+    height: 2rem;
+    color: white;
+    padding: 0;
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+    font-weight: bolder; 
+    padding-bottom: 0.8rem;
+    letter-spacing: 0.2rem;
+    background: #7091ba;
+}
+ 
+body{
+    font-family: "TTNorms-Regular";  
+  }
+
+.text-blue {
+  color: #3061ad!important;  
+}
+
+.bolderFont{
+  font-family: 'TTNorms-Medium'!important; 
+}
+
+.top-center{
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.footer-half{
+    background: linear-gradient(to left,#3061AD 50%,#7091BA 50%)!important;
+}
+
+.footer{
+  background: #7091BA;
+}
+
+.third-color{
+    background:  #3061AD!important;
+}  
+ 
+h2 {
+  font-family: 'TTNorms-Light';
+  letter-spacing: 0.3rem;
+}
+
+.letter-spacing { 
+  letter-spacing: 0.3rem;
+}
+
+.contactMap{
+  max-width: 100%;
+  width: 100%;
+  max-height: 7rem;
+}
+
+.h-21 {
+  height: 4.5rem;
+}
+.footer1{ 
+  letter-spacing: 0.1rem;
+}
+
+/*NOSOTROS*/
+.imagenNosotros1{ 
+  max-height: 40rem;
+} 
+
+.text-nosotros-direccion{ 
+  bottom: -5rem;
+} 
+
+
+/*PROYECTO*/
+
+.banner-height{ 
+   height:22rem;
+} 
+
+@media (min-width: 640px) { 
+  
+
+  .footer-half{
+        background: #7091BA;
+    } 
+
+} 

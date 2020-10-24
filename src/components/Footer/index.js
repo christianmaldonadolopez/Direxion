@@ -7,7 +7,7 @@ import instagram from "../../images/insta-icon.png";
 const Footer = () => (
  
       <footer className="footer-half">
-        <nav className="flex flex-col justify-between max-w-screen-xl px-4 py-8 mx-auto text-sm ">
+        <nav className="flex flex-col md:flex-row justify-between max-w-screen-xl px-4 py-8 mx-auto text-sm ">
           <div className="float-left text-white md:w-1/2">
             <div className="float-left pb-4 text-white md:w-1/2">
               <p className="font-xs footer1"><b>ENVìANOS UN MENSAJE</b></p>

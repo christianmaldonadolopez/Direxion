@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter | Personality`,
-    description: `A free resposive Gatsby Starter`,
-    author: `@matheusquintaes`,
+    title: `Direxion`,
+    description: `Sitio Direxion`,
+    author: `Christian Maldonado`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

@@ -37,6 +37,7 @@
   
 b {
       font-family: 'TTNorms-Medium'!important; 
+      font-weight: 200;
   }
   
 
@@ -93,6 +94,7 @@ body{
 
 .footer{
   background: #7091BA;
+  font-family: 'TTNorms-Light'!important;
 }
 
 .third-color{

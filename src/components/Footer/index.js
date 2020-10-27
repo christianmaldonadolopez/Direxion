@@ -18,14 +18,14 @@ const Footer = () => (
             <div className="float-left text-white md:w-1/2 md:px-4 w-full">
               <div className="float-left text-white md:w-1/2  md:pr-3 w-full">
                 <input
-                  className="w-full mb-2 form-input h-8 text-xs"
+                  className="w-full mb-2 form-input h-8 text-xs rounded-lg px-4"
                   id="name"
                   name="name"
                   placeholder="Nombre"
                   type="text"
                 /> 
                 <input
-                  className="w-full form-input h-8 text-xs"
+                  className="w-full form-input h-8 text-xs rounded-lg px-4"
                   id="mail"
                   name="mail"
                   placeholder="Correo"
@@ -33,7 +33,7 @@ const Footer = () => (
                 /> 
               </div> 
               <textarea
-                className="md:w-1/2 w-full md:float-left form-textarea h-21 text-xs"
+                className="md:w-1/2 w-full md:float-left form-textarea rounded-lg h-21 text-xs px-4 py-2"
                 id="message"
                 name="message"
                 placeholder="Mensaje"
@@ -44,7 +44,7 @@ const Footer = () => (
           </div>
           <div className="md:w-1/2"> 
             <div className="float-left text-white md:w-1/2 md:px-4 pb-4">
-              <p className="font-md font-normal leading-4 pb-4">BUSCANOS EN<br/> GOOGLE MAPS</p>
+              <p className="font-md font-normal leading-5 pb-4 letter-spacing text-lg">BUSCANOS EN<br/> GOOGLE MAPS</p>
               <p className="text-xs font-normal leading-3">Direccion:</p>
               <p className="text-xs font-thin leading-3">Ave. Inventada #123 Col. Inventada C.P. 12345</p>  
               <Link to="#">
@@ -53,6 +53,7 @@ const Footer = () => (
               <Link to="#">
                 <img className="w-5 mt-2 mr-2 float-left" src={instagram}/>  
               </Link> 
+              <p className="text-xs font-normal leading-3 pt-3 text-xss letter-spacing">DIREXION</p>
             </div> 
             <div className="md:float-left text-white md:w-1/2">
               <iframe title="map" className="contactMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.3904994566515!2d-115.33559028482111!3d32.64905108101081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d773a7a8805695%3A0x50408883e9f49b0!2sTransportes%20Internacionales%20Escoboza!5e0!3m2!1sen!2smx!4v1602264224035!5m2!1sen!2smx"/>

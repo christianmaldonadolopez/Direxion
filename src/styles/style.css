@@ -132,6 +132,9 @@ h2 {
   bottom: -5rem;
 } 
 
+.imgnos{ 
+  width: 75%!important;
+}
 
 /*PROYECTO*/
 
@@ -139,11 +142,23 @@ h2 {
    height:22rem;
 } 
 
+.slick-slide img {
+  display: block;
+  height: auto;
+}
+
 @media (min-width: 640px) { 
   
 
   .footer-half{
         background: #7091BA;
     } 
+
+    
+.slick-slide img {
+  display: block; 
+  height: 25rem;
+}
+
 
 } 

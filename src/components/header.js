@@ -56,7 +56,7 @@ function Header() {
               title: `QUIENES SOMOS`,
             },
             {
-              route: `/que`,
+              route: `/nosotros#quehacemos`,
               title: `QUE HACEMOS`,
             },
             {

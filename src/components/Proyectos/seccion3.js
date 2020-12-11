@@ -9,10 +9,10 @@ const Proyectos = () => (
     <BackgroundImage>   
       <div className=" w-full px-8 letter-spacing"> 
           <h1 className="text-3xl text-white text-center pb-2">
-            <b>OFICINAS CORPORATIVAS HAUS</b>
+            <b>PLAZA CITADINA CORREGIDORA, QRO.</b>
           </h1>
           <h3 className="text-lg text-white text-center pb-4">
-            <a href="#">ver más</a>
+          <a href="/proyecto3">ver más</a>
           </h3>  
       </div> 
     </BackgroundImage>

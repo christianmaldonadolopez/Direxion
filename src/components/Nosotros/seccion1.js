@@ -17,7 +17,7 @@ const AboutUs = () => (
             <b>EXPERIENCIA  </b>
           </h3>
           <p className="text-sm bolderFont text-justify pb-8 leading-5 tracking-wider">
-          Somos una empresa joven que nace hace 6 años con una solida experiencia de más de 15 años de nuestro fundador. 
+          Somos una empresa joven que nace en el 2014 con una solida experiencia de más de 15 años de nuestro fundador. 
           Durante este tiempo nos hemos especializado en la administración de proyectos de construcción y un alto nivel de entendimiento 
           del modelo de negocio inmobiliario.
           </p>

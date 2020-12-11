@@ -11,30 +11,30 @@ const GlobalStyles = createGlobalStyle`
 @font-face {
   font-family: "TTNorms-Medium"; 
   font-weight: 100;
-  src: url('/fonts/TT-Norms-Medium/TT Norms Medium.woff2') format("woff2"), 
-       url('/fonts/TT-Norms-Medium/TT Norms Medium.woff') format("woff"),
-       url('/fonts/TT-Norms-Medium/TT Norms Medium.ttf') format('truetype'),
-       url('/fonts/TT-Norms-Medium/TT Norms Medium.svg#icomoonregular') format('svg');
+  src: url('${__dirname}/fonts/TT-Norms-Medium/TT Norms Medium.woff2') format("woff2"), 
+       url('${__dirname}/fonts/TT-Norms-Medium/TT Norms Medium.woff') format("woff"),
+       url('${__dirname}/fonts/TT-Norms-Medium/TT Norms Medium.ttf') format('truetype'),
+       url('${__dirname}/fonts/TT-Norms-Medium/TT Norms Medium.svg#icomoonregular') format('svg');
   font-display: swap;
 }
   
   @font-face {
     font-family: "TTNorms-Light"; 
     font-weight: 100;
-    src: url('/fonts/TT-Norms-Light/TT Norms Light.woff2') format("woff2"), 
-         url('/fonts/TT-Norms-Light/TT Norms Light.woff') format("woff"),
-         url('/fonts/TT-Norms-Light/TT Norms Light.ttf') format('truetype'),
-         url('/fonts/TT-Norms-Light/TT Norms Light.svg#icomoonregular') format('svg');
+    src: url('${__dirname}/fonts/TT-Norms-Light/TT Norms Light.woff2') format("woff2"), 
+         url('${__dirname}/fonts/TT-Norms-Light/TT Norms Light.woff') format("woff"),
+         url('${__dirname}/fonts/TT-Norms-Light/TT Norms Light.ttf') format('truetype'),
+         url('${__dirname}/fonts/TT-Norms-Light/TT Norms Light.svg#icomoonregular') format('svg');
     font-display: swap;
 }
    
   @font-face {
     font-family: "TTNorms-Regular"; 
     font-weight: 100;
-    src: url('/fonts/TT-Norms-Regular/TT Norms Regular.woff2') format("woff2"), 
-         url('/fonts/TT-Norms-Regular/TT Norms Regular.woff') format("woff"),
-         url('/fonts/TT-Norms-Regular/TT Norms Regular.ttf') format('truetype'),
-         url('/fonts/TT-Norms-Regular/TT Norms Regular.svg#icomoonregular') format('svg');
+    src: url('${__dirname}/fonts/TT-Norms-Regular/TT Norms Regular.woff2') format("woff2"), 
+         url('${__dirname}/fonts/TT-Norms-Regular/TT Norms Regular.woff') format("woff"),
+         url('${__dirname}/fonts/TT-Norms-Regular/TT Norms Regular.ttf') format('truetype'),
+         url('/${__dirname}fonts/TT-Norms-Regular/TT Norms Regular.svg#icomoonregular') format('svg');
     font-display: swap;
 }
 

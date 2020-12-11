@@ -12,7 +12,7 @@ const Proyectos = () => (
             <b>OFICINAS CORPORATIVAS HAUS</b>
           </h1>
           <h3 className="text-lg text-white text-center pb-4">
-            <a href="#">ver más</a>
+          <a href="/proyecto2">ver más</a>
           </h3>  
       </div> 
     </BackgroundImage>

@@ -4,7 +4,7 @@ import Image from "./Imagenes/imageNosotros2";
 
 const AboutUs = () => (
     <>
-    <section className="flex flex-col items-center md:flex-row">
+    <section id="quehacemos" className="flex flex-col items-center md:flex-row">
         <div className="w-full  md:w-6/12 px-8">
           <div className="w-full md:w-8/12 md:float-right md:max-w-md  tracking-wider">
             <h1 className="text-2xl py-8">

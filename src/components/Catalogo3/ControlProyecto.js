@@ -12,7 +12,7 @@ const seccionControl = () => (
                 </a>
           </div>
           <div className="w-6/12 md:w-6/12 pl-8 pr-8 md:pr-0 pt-8 pb-8 float-right  "> 
-                <a href="/proyecto" className="float-right"> 
+                <a href="/proyecto4" className="float-right"> 
                     <img className="float-right ml-16 mb-16 md:mb-0"  src={derecha} alt="icon" />SIGUIENTE PROYECTO
                 </a>
           </div> 

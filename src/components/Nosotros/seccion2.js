@@ -4,11 +4,11 @@ import Image from "./Imagenes/imageNosotros2";
 
 const AboutUs = () => (
     <>
-    <section id="quehacemos" className="flex flex-col items-center md:flex-row">
+    <section id="conocenos" className="flex flex-col items-center md:flex-row">
         <div className="w-full  md:w-6/12 px-8">
           <div className="w-full md:w-8/12 md:float-right md:max-w-md  tracking-wider">
             <h1 className="text-2xl py-8">
-              <b>¿QUE HACEMOS? </b>
+              <b>CONÓCENOS</b>
             </h1>
             <h3 className="text-lg text-blue  pb-4">
               <b>NUESTRO VALOR AGREGADO  </b>

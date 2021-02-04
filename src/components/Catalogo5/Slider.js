@@ -3,9 +3,9 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import gallery from "../../images/02_ADAGIO_TOWN_PLAZA/01.jpg";
-import gallery2 from "../../images/02_ADAGIO_TOWN_PLAZA/02.jpg";
-import gallery3 from "../../images/02_ADAGIO_TOWN_PLAZA/03.jpg"; 
+import gallery from "../../images/05_CITADINA_CORREGIDORA/01.jpg";
+import gallery2 from "../../images/05_CITADINA_CORREGIDORA/02.jpg";
+import gallery3 from "../../images/05_CITADINA_CORREGIDORA/03.jpg"; 
  
 export default () => {
   var settings = {

@@ -8,7 +8,7 @@ const Banner = ({children}) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "BannerProyecto.png" }) {
+        desktop: file(relativePath: { eq: "04_OFICINA_HAUS/HAUZ_02.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp

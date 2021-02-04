@@ -9,7 +9,7 @@ import SeccionControl from '../components/Catalogo/ControlProyecto'
 
 const Proyecto = () => (
   <Layout>
-    <SEO title="HAUS INMOBILIARIA" />
+    <SEO title="OFICINAS CORPORATIVAS HAUS" />
     <Banner/> 
     <Seccion1/>  
     <Slider /> 

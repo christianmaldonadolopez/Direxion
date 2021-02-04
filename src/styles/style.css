@@ -109,7 +109,38 @@ h2 {
 .letter-spacing { 
   letter-spacing: 0.3rem;
 }
-
+ 
+.backgroundGray { 
+  filter: grayscale(100%); 
+}
+ 
+.seccion1 { 
+  background-color: #1c3761d1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+ 
+.seccion1 h1:hover .seccion1 {
+  background-color: transparent; 
+}
+ 
+ 
+.seccion2 { 
+  background-color: #465a73b8; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+ 
+.seccion3 { 
+  background-color: #494949d9;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
 .contactMap{
   max-width: 100%;
   width: 100%;

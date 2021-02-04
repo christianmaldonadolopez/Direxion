@@ -4,8 +4,8 @@ const links = [
       label: `QUIENES SOMOS`,
     },
     {
-      url: `/que`,
-      label: `QUE HACEMOS`,
+      url: `/conocenos`,
+      label: `CONÓCENOS`,
     },
     {
       url: `/proyectos`,

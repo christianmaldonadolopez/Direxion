@@ -3,11 +3,8 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import gallery from "../../images/03_TORRE-NAVOLTA/01.jpg";
-import gallery2 from "../../images/03_TORRE-NAVOLTA/02.jpg";
-import gallery3 from "../../images/03_TORRE-NAVOLTA/03.jpg"; 
-import gallery4 from "../../images/03_TORRE-NAVOLTA/04.jpg"; 
-import gallery5 from "../../images/03_TORRE-NAVOLTA/05.jpg"; 
+import gallery from "../../images/06_HOTEL_POSADAS/01.jpg";
+import gallery2 from "../../images/06_HOTEL_POSADAS/02.jpg"; 
  
 export default () => {
   var settings = {
@@ -33,25 +30,7 @@ export default () => {
                 src={gallery2}
                 alt="gallery"
               />
-        </div> 
-        <div className="px-1"> 
-            <img 
-                src={gallery3}
-                alt="gallery"
-              />
-        </div>  
-        <div className="px-1"> 
-            <img 
-                src={gallery4}
-                alt="gallery"
-              />
-        </div>  
-        <div className="px-1"> 
-            <img 
-                src={gallery5}
-                alt="gallery"
-              />
-        </div>   
+        </div>     
       </Slider> 
     </>
   )

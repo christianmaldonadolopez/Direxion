@@ -3,10 +3,9 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import gallery from "../../images/imgProyecto.png";
-import gallery2 from "../../images/imgProyecto2.png";
-import gallery3 from "../../images/imgProyecto3.png";
-import gallery4 from "../../images/imgProyecto4.png";
+import gallery from "../../images/01_NUEVO_ACUARIO_MAZATLAN/02.jpg";
+import gallery2 from "../../images/01_NUEVO_ACUARIO_MAZATLAN/01.jpg";
+import gallery3 from "../../images/01_NUEVO_ACUARIO_MAZATLAN/03.webp"; 
  
 export default () => {
   var settings = {
@@ -36,12 +35,6 @@ export default () => {
         <div className="px-1"> 
             <img 
                 src={gallery3}
-                alt="gallery"
-              />
-        </div> 
-        <div className="px-1"> 
-            <img 
-                src={gallery4}
                 alt="gallery"
               />
         </div>   

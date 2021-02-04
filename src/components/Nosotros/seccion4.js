@@ -18,7 +18,7 @@ const AboutUs = () => (
       <section className="flex flex-col items-center md:flex-row"> 
         <div className="w-full max-w-screen-lg md:pt-16 pt-8 m-0-auto items-center pb-64">  
           <h1 className="text-2xl text-center  tracking-wider w-full md:pb-20 pb-8 max-w-2xl m-0-auto"> DIREXIÓN EN NÚMEROS </h1>  
-          <div className="w-1/2 md:w-2/12 sm:w-6/12 px-4 relative float-left md:h-64 my-4 h-70">
+          <div className="w-1/2 md:w-1/5 sm:w-6/12 px-4 relative float-left md:h-64 m-auto h-70">
             <img
                 className="absolute left-4  "  
                 src={nosotrosDireccion1}
@@ -30,7 +30,7 @@ const AboutUs = () => (
               </b>
               </p>
           </div>  
-          <div className="w-1/2 md:w-2/12 sm:w-6/12 px-4 relative float-left md:h-64 my-4 h-70  ">
+          <div className="w-1/2 md:w-1/5 sm:w-6/12 px-4 relative float-left md:h-64 m-auto h-70  ">
             <img
                 className="absolute left-4  "  
                 src={nosotrosDireccion2}
@@ -42,19 +42,19 @@ const AboutUs = () => (
               </b>
               </p>
           </div>  
-          <div className="w-1/2 md:w-2/12 sm:w-6/12 px-4 relative float-left md:h-64 my-4 h-70   ">
+          <div className="w-1/2 md:w-1/5 sm:w-6/12 px-4 relative float-left md:h-64 m-auto h-70   ">
             <img
                 className="absolute left-4  "  
                 src={nosotrosDireccion3}
               />
           </div>  
-          <div className="w-1/2 md:w-2/12 sm:w-6/12 px-4 relative float-left md:h-64 my-4 h-70    ">
+          <div className="w-1/2 md:w-1/5 sm:w-6/12 px-4 relative float-left md:h-64 m-auto h-70    ">
             <img
                 className="absolute left-4  "  
                 src={nosotrosDireccion4}
               /> 
           </div> 
-          <div className="w-1/2 md:w-2/12 sm:w-6/12 px-4 relative float-left md:h-64 my-4 h-70    ">
+          <div className="w-1/2 md:w-1/5 sm:w-6/12 px-4 relative float-left md:h-64 m-auto h-70    ">
             <img
                 className="absolute left-4 imgnos"  
                 src={nosotrosDireccion5}

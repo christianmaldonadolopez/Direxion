@@ -3,10 +3,13 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import gallery from "../../images/galleryProyecto.png";
-import gallery2 from "../../images/galleryProyecto2.png";
-import gallery3 from "../../images/galleryProyecto3.png";
-import gallery4 from "../../images/galleryProyecto4.png";
+import gallery from "../../images/04_OFICINA_HAUS/HAUZ_01.jpg";
+import gallery2 from "../../images/04_OFICINA_HAUS/HAUZ_02.jpg";
+import gallery3 from "../../images/04_OFICINA_HAUS/HAUZ_03.jpg";
+import gallery4 from "../../images/04_OFICINA_HAUS/HAUZ_04.jpg";
+import gallery5 from "../../images/04_OFICINA_HAUS/DSCN2147.jpg";
+import gallery6 from "../../images/04_OFICINA_HAUS/DSCN2149.jpg";
+import gallery7 from "../../images/04_OFICINA_HAUS/DSCN2153.jpg";
  
 export default () => {
   var settings = {
@@ -42,6 +45,24 @@ export default () => {
         <div className="px-1"> 
             <img 
                 src={gallery4}
+                alt="gallery"
+              />
+        </div> 
+        <div className="px-1"> 
+            <img 
+                src={gallery5}
+                alt="gallery"
+              />
+        </div> 
+        <div className="px-1"> 
+            <img 
+                src={gallery6}
+                alt="gallery"
+              />
+        </div> 
+        <div className="px-1"> 
+            <img 
+                src={gallery7}
                 alt="gallery"
               />
         </div>   

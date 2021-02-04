@@ -1,14 +1,13 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby' 
-import styled from 'styled-components'
 
 import BackgroundImage from 'gatsby-background-image'
 
-const Banner = ({children}) => (
+const BackgroundSection = ({children}) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "08_TORRE_MITT/01.jpg" }) {
+        desktop: file(relativePath: { eq: "03_TORRE-NAVOLTA/01.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -23,7 +22,8 @@ const Banner = ({children}) => (
       return (
         <BackgroundImage
           fluid={imageData} 
-          className="flex flex-col banner-height items-center md:flex-row tracking-wider"
+		  id="proyectoB4"
+          className="flex min-h-screen items-center flex-row tracking-wider backgroundGray"
         >
            {children}
         </BackgroundImage>
@@ -32,10 +32,4 @@ const Banner = ({children}) => (
   />
 )
  
-const StyledBanner = styled(Banner)`
-width: 100%;
-background-position: bottom center;
-background-repeat: repeat-y;
-background-size: cover;
-`
-export default StyledBanner
+export default BackgroundSection

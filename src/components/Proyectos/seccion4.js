@@ -12,29 +12,22 @@ const Proyectos = () => (
 		  </div> 
 		</BackgroundImage> 
 		<div className=" w-full px-8 letter-spacing absolute top-0 h-full seccion2" id="proyecto4"> 
+			<a href="/proyecto4" onMouseOver={(e) => { 
+										document.getElementById("proyecto4").style.backgroundColor = "transparent";
+										document.getElementById("proyectoB4").style.filter = "grayscale(0%)";
+									  }}
+									  
+									  onMouseOut ={(e) => {
+										document.getElementById("proyecto4").style.backgroundColor = "#465a73b8";
+										document.getElementById("proyectoB4").style.filter = "grayscale(100%)";
+									  }}>
 			<h1 className="text-3xl text-white text-center pb-2">
-					<a href="/proyecto4" onMouseOver={(e) => { 
-										document.getElementById("proyecto4").style.backgroundColor = "transparent";
-										document.getElementById("proyectoB4").style.filter = "grayscale(0%)";
-									  }}
-									  
-									  onMouseOut ={(e) => {
-										document.getElementById("proyecto4").style.backgroundColor = "#465a73b8";
-										document.getElementById("proyectoB4").style.filter = "grayscale(100%)";
-									  }}><b>TORRE NAVOLTA.</b></a>
+					<b>TORRE NAVOLTA.</b>
 				<br/>
-				<span className="text-lg text-white text-center pb-4">
-					<a href="/proyecto4" onMouseOver={(e) => { 
-										document.getElementById("proyecto4").style.backgroundColor = "transparent";
-										document.getElementById("proyectoB4").style.filter = "grayscale(0%)";
-									  }}
-									  
-									  onMouseOut ={(e) => {
-										document.getElementById("proyecto4").style.backgroundColor = "#465a73b8";
-										document.getElementById("proyectoB4").style.filter = "grayscale(100%)";
-									  }}>ver más</a>
+				<span className="text-lg text-white text-center pb-4">ver más
 				</span>
 			</h1>   
+			</a>
         </div> 
     </div>
     </> 

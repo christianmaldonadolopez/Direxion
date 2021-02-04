@@ -119,19 +119,21 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-transition: background-color 0.4s ease;
+	-moz-transition: background-color 0.4s ease;
+	-o-transition: background-color 0.4s ease;
+	transition: background-color 0.4s ease;
 }
- 
- 
-.seccion1 h1:hover .seccion1 {
-  background-color: transparent; 
-}
- 
- 
+  
 .seccion2 { 
   background-color: #465a73b8; 
   display: flex;
   justify-content: center;
   align-items: center; 
+  -webkit-transition: background-color 0.4s ease;
+	-moz-transition: background-color 0.4s ease;
+	-o-transition: background-color 0.4s ease;
+	transition: background-color 0.4s ease;
 }
  
 .seccion3 { 
@@ -139,6 +141,10 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-transition: background-color 0.4s ease;
+	-moz-transition: background-color 0.4s ease;
+	-o-transition: background-color 0.4s ease;
+	transition: background-color 0.4s ease;
 }
  
 .contactMap{

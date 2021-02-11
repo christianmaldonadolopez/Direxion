@@ -11,7 +11,6 @@ function Layout({ children }) {
       <main className="flex-1 w-full max-w-ull mx-auto">
         {children}
       </main> 
-      <Footer/>
     </div>
   );
 }

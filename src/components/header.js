@@ -78,18 +78,12 @@ function Header() {
           ))}
         </nav>
         <div className="hidden md:w-2/12 md:block pr-8" to="/">
-          <Link className="" to="#">
+          <Link className="" to="https://www.instagram.com/">
             <img
                 className="float-right  ml-4"  
                 src={instaHead}
               />
-          </Link>
-          <Link className="" to="#">
-            <img
-                className="float-right ml-4"  
-                src={fbHead}
-              />
-          </Link>
+          </Link> 
         </div>
       </div>
     </header>

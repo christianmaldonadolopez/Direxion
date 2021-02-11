@@ -114,6 +114,49 @@ h2 {
   filter: grayscale(100%); 
 }
  
+.Contact--Details { 
+  
+  max-width: 24rem!important;
+  margin: 0px auto;
+  margin-top: 10rem;
+  }
+
+  .rombosText{
+    position: absolute;
+    top: 8rem;
+    color: white;
+    font-size: 0.75rem;
+    letter-spacing: 0.02rem;
+}
+
+.rombo{
+max-height: 15rem;
+}
+
+.divRombo{
+max-width: 17rem;
+} 
+
+.rombosText2{
+  position: absolute;
+  top: 2rem;
+  color: white;
+  font-size: 1rem;
+  z-index: 20;
+  letter-spacing: 0.02rem;
+}
+
+.rombosText3{
+  position: absolute;
+  top: 8rem;
+  color: white;
+  font-size:  0.75rem;
+  z-index: 20;
+  letter-spacing: 0.02rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+}
+
 .seccion1 { 
   background-color: #1c3761d1; 
   display: flex;

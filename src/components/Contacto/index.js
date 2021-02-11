@@ -1,17 +1,26 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image" 
-import { ImageContainer} from "./styled"
+import { MapPin, Smartphone, Mail } from 'react-feather'
+import { ImageContainer } from "./styled"
 
 const Intro = () => (
-    <> 
-      <section className="text-center relative w-full max-w-screen-xl m-0-auto min-h-full px-8">
-        <ImageContainer>
-            <h2 className="inline-block p-3 text-2xl absolute left-0 text-left text-3xl leading-8 font-light z-10">
-            TU<br/> PROYECTO<br/> EN LA<br/><b>DIREXIÓN</b><br/><b> CORRECTA</b>
-            </h2>  
-        </ImageContainer>
-      </section>
-    </> 
-) 
+  <>
+    <section className="text-center relative w-full max-w-screen-xl m-0-auto min-h-full px-8"> 
+      <div className="mt-64 Contact--Details w-full">
+        <a
+          className="Contact--Details--Item  flex "
+          href=""
+          target="_blank"
+        >
+          <MapPin  className="mr-4" />   Ave. Inventada #123 Col. Inventada C.P. 12345
+              </a>
+        <a className="Contact--Details--Item  flex mt-4" href='' >
+          <Smartphone  className="mr-4"/> Tel.(686) 123 4567 / Cel.(686) 123 4567
+              </a>
+        <a className="Contact--Details--Item flex mt-4" href=''>
+          <Mail className="mr-4" /> info@direccion.com / contacto@direccion.com
+              </a>
+      </div>
+    </section>
+  </>
+)
 export default Intro

@@ -20,13 +20,7 @@ const seccion1 = () => (
             </h3>   
             <p className="text-sm  bolderFont text-left pb-8 leading-5  max-w-md tracking-wider">
                 Hotel
-            </p>
-            <h3 className="text-base text-blue leading-5 pb-2 "> 
-                <b>MONTO DE INVERSIÓN:</b>
-            </h3>   
-            <p className="text-sm bolderFont text-left pb-8 leading-5  max-w-md tracking-wider">
-                150 MDP
-            </p>
+            </p> 
             <h3 className="text-base text-blue leading-5 pb-2 "> 
                 <b>M2 DE CONSTRUCCIÓN:</b>
             </h3>   

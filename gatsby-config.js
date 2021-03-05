@@ -1,38 +1,69 @@
+const config = require('./config/site');
+const path = require(`path`);
+
 module.exports = {
   siteMetadata: {
-    title: `Direxion`,
-    description: `Sitio Direxion`,
-    author: `Christian Maldonado`,
+    ...config,
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-react-helmet`,
-    "gatsby-plugin-transition-link",
-    "gatsby-plugin-postcss",
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-postcss',
+    `gatsby-plugin-preload-fonts`,
+    'gatsby-plugin-catch-links',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-        name: 'images'
+        path: path.join(__dirname, `src`, `images`),
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/personality-icon.jpg`, // This path is relative to the root of the site.
+        name: 'posts',
+        path: `${__dirname}/content/posts`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 750,
+              quality: 90,
+              linkImagesToOriginal: true,
+            },
+          },
+          'gatsby-remark-prismjs',
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-emotion',
+      options: {
+        autoLabel: process.env.NODE_ENV !== 'production',
+        // eslint-disable-next-line
+        labelFormat: `[filename]--[local]`,
+      },
+    },
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: config.title,
+        short_name: config.shortName,
+        description: config.description,
+        start_url: config.pathPrefix,
+        background_color: config.backgroundColor,
+        theme_color: config.themeColor,
+        display: 'standalone',
+        icon: config.favicon,
+      },
+    },
+    'gatsby-plugin-offline',
   ],
-}
+};
